@@ -1,0 +1,55 @@
+{
+    "name": "@hckrnews/standard",
+    "description": "JavaScript Standard Style with custom Hckr.News tweaks",
+    "version": "0.1.0",
+    "author": {
+        "name": "Pieter Wigboldus",
+        "url": "https://hckr.news/"
+    },
+    "bin": "./bin/cmd.js",
+    "bugs": {
+        "url": "https://github.com/hckrnews/standard/issues"
+    },
+    "type": "module",
+    "dependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-standard": "16.0.3",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "standard": "^16.0.4",
+        "standard-engine": "^14.0.1"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.16.3",
+        "cross-spawn": "^7.0.3",
+        "merge": "^2.1.1",
+        "mkdirp": "^1.0.4",
+        "rimraf": "^3.0.2",
+        "run-series": "^1.1.9",
+        "standard": "*"
+    },
+    "engines": {
+        "node": "^14.14.0 || >=16.0.0"
+    },
+    "homepage": "https://github.com/hckrnews/standard",
+    "keywords": [],
+    "license": "LGPL-2.1",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hckrnews/standard.git"
+    },
+    "scripts": {
+        "lint": "eslint -c ./eslintrc.json .",
+        "lint:fix": "eslint -c ./eslintrc.json . --fix",
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "vulnerabilities": "npm audit --only=prod"
+    },
+    "standard": {
+        "parser": "@babel/eslint-parser",
+        "ignore": [
+            "tmp/**"
+        ]
+    }
+}
