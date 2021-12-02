@@ -1,7 +1,7 @@
 {
     "name": "@hckrnews/standard",
     "description": "JavaScript Standard Style with custom Hckr.News tweaks",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Pieter Wigboldus",
         "url": "https://hckr.news/"
