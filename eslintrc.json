@@ -1,5 +1,14 @@
 {
    "extends": "standard",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": "latest"
+    },
+    "settings": {
+        "jsdoc": {
+            "mode": "typescript"
+        }
+    },
    "rules": {
       "block-scoped-var": "error",
       "complexity": [
