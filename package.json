@@ -16,7 +16,7 @@
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.25.3",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-promise": "^6.2.0",
         "standard": "^17.0.0",
         "standard-engine": "^15.0.0"
     },
